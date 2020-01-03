@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <snippets>
-    <snippet group="QML" trigger="debugRect" id="" complement="debug red rectangle " removed="false" modified="false">Rectangle { // TODO delete debug rect
-    anchors.fill: parent
-    color: &quot;red&quot;
-    opacity: 0.5
-}</snippet>
+    <snippet group="C++" trigger="crcCollaborators" id="" complement="" removed="false" modified="false">/// --------------- Collaborators ------------------------------------------------
+/// $$</snippet>
+    <snippet group="C++" trigger="crcResponisibility" id="" complement="" removed="false" modified="false">/// --------------- Responsibilities ---------------------------------------------
+/// $$</snippet>
     <snippet group="C++" trigger="logDebug" id="" complement="" removed="false" modified="false">    
 (void)$output_expression$; // TODO delete debug message
 qWarning(qPrintable(QString(&quot;$output_expression$ is %1&quot;).arg($output_expression$)));
@@ -13,4 +12,13 @@ $$
 </snippet>
     <snippet group="C++" trigger="logPlace" id="" complement="" removed="false" modified="false">qWarning(Q_FUNC_INFO); // TODO delete debug message
 </snippet>
+    <snippet group="Text" trigger="thoughts" id="" complement="" removed="false" modified="false">
+/* Thoughts
+ * $$
+ */</snippet>
+    <snippet group="QML" trigger="debugRect" id="" complement="debug red rectangle " removed="false" modified="false">Rectangle { // TODO delete debug rect
+    anchors.fill: parent
+    color: &quot;red&quot;
+    opacity: 0.5
+}</snippet>
 </snippets>
